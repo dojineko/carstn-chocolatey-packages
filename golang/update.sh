@@ -14,8 +14,8 @@ fi
 
 version=$1
 
-url="https://storage.googleapis.com/golang/go${version}.windows-386.zip"
-url64="https://storage.googleapis.com/golang/go${version}.windows-amd64.zip"
+url="https://dl.google.com/go/go${version}.windows-386.msi"
+url64="https://dl.google.com/go/go${version}.windows-amd64.msi"
 
 checksum=$(curl "${url}.sha256")
 checksum64=$(curl "${url64}.sha256")
