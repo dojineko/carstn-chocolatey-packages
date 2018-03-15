@@ -1,9 +1,9 @@
 ﻿$ErrorActionPreference = 'Stop'
 
-$url = 'https://dl.google.com/go/go1.9.4.windows-386.msi'
-$checksum = '5143baa5f7fba4bc4d4c4470943b192d0671de009d80d75df8744aba341bf560'
-$url64 = 'https://dl.google.com/go/go1.9.4.windows-amd64.msi'
-$checksum64 = 'eb2328ca1d15e3fd538b06b451540dec9981202083cc921201112160ae6b0020'
+$url = 'https://dl.google.com/go/go1.10.windows-386.msi'
+$checksum = 'bad7550085269fd5c9d6ef7ed0b22f2c539554802d3bf03010760f8a5b25fa15'
+$url64 = 'https://dl.google.com/go/go1.10.windows-amd64.msi'
+$checksum64 = '4b09094c811e0856b134628800a7820fd3e15e7f4a4fe16f0da42b5ca1a1c86c'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
